@@ -24,7 +24,9 @@ If you have it, install the CUDA® Toolkit 9.0 and cuDNN v7.0 for CUDA 9.0
 Copy cuDNN files to directories below:
 
 -`cudnn64_7.dll (cuda\bin\cudnn64_5.dll) into C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\;`
+
 -`cuda\include\cudnn.h to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include\;`
+
 -`and cuda\lib\x64\cudnn.lib to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\`
 
 WHERE C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0 is the install PATH for the CUDA toolkit.
