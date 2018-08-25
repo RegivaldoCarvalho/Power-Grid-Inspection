@@ -14,8 +14,14 @@ To install the CPU-only version of TensorFlow, enter the following command:
 pip3 install --upgrade tensorflow
 ```
 To install the GPU version of TensorFlow you need a GPU card with CUDA Compute Capability 3.0 or higher.
-If you have it, install the CUDA® Toolkit 9.0 and cuDNN v7.0 for CUDA 9.2 
+If you have it, install the CUDA® Toolkit 9.0 and cuDNN v7.0 for CUDA 9.0 
 - https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/
+- https://developer.nvidia.com/cudnn
+
+Copy cuDNN files to directories below 
+
+
+
 
 Then add cuDNN diretory to environment variable on windows:
 
