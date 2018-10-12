@@ -75,6 +75,15 @@ Remeber to install "Windows Universal CRT SDK"
 
 First Clone the repository to your diretory
 
+Then: 
+
+```
+To compile and install locally run "python setup.py build_ext --inplace"
+To install library to Python site-packages run "python setup.py build_ext install"
+```
+
+When you run make under the PythonAPI folder, actually you run the command python setup.py build_ext --inplace, within which your default python(mostly python2) is called. So, just run the command python3 setup.py build_ext --inplace in the PythonAPI folder for python3.
+
 To solve problemas with Visual Studio on Windows 
 
 https://github.com/cocodataset/cocoapi/issues/51#issuecomment-379872704
@@ -85,6 +94,11 @@ I didnt try it but it seems works for some people:
 ```bash
 COCOAPI repository for windows - https://github.com/philferriere/cocoapi
 ```
+
+
+## Evaluating the model
+
+https://becominghuman.ai/tensorflow-object-detection-api-tutorial-training-and-evaluating-custom-object-detector-ed2594afcf73
 
 
 
