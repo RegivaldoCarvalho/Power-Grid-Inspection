@@ -53,7 +53,38 @@ pip3 install --upgrade keras
 ```
 
 
+### Visual Studio 2017 - https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools&rel=15#
 
+Install Build Tools for Visual Studio 2017 
+
+Following these instructions
+
+https://www.scivision.co/python-windows-visual-c++-14-required/
+
+Remeber to install "Windows Universal CRT SDK"
+
+1 - Run Visual Studio Installer.
+2 - Select Modify button.
+3 - Go to "Individual Components" tab.
+4 - Scroll down to "Compilers, build tools and runtimes".
+5 - Tick "Windows Universal CRT SDK".
+6 - Install.
+
+
+### COCOAPI - https://github.com/cocodataset/cocoapi
+
+First Clone the repository to your diretory
+
+To solve problemas with Visual Studio on Windows 
+
+https://github.com/cocodataset/cocoapi/issues/51#issuecomment-379872704
+
+
+I didnt try it but it seems works for some people: 
+
+```bash
+COCOAPI repository for windows - https://github.com/philferriere/cocoapi
+```
 
 
 
