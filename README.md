@@ -100,6 +100,6 @@ COCOAPI repository for windows - https://github.com/philferriere/cocoapi
 
 https://becominghuman.ai/tensorflow-object-detection-api-tutorial-training-and-evaluating-custom-object-detector-ed2594afcf73
 
-
+https://www.youtube.com/watch?v=s-lHP8v9qzY
 
 ## Test
